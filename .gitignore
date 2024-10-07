@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Knex.js migrations and seeds lock files
+knexfile.js
+knexfile.ts
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# npm package lock file
+package-lock.json
+
+# IntelliJ IDEA and WebStorm
+.idea/
+
+# VSCode settings
+.vscode/
